@@ -1,2 +1,8 @@
 @import "./base/common";
 @import "./base/reset";
+
+@import "./utils/mixin";
+@import "./utils/variables";
+@import "./utils/hidden";
+
+@import "./components/footer";
