@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Footer</title>
+    <title>hero</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -20,65 +20,43 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <section class="footer">
-      <div class="footer__container conteiner">
-        <h2 class="visually-hidden">Footer</h2>
-        <div class="footer__slogan">
-          <h3 class="visually-hidden">Slogan</h3>
-          <p class="footer__text">homemade ice cream made</p>
-          <p class="footer__accent">with passion</p>
+    <section class="hero">
+      <div class="hero__container container">
+        <div class="hero__main">
+          <h1 class="visually-hidden">Icecream</h1>
+          <p class="hero__slogan">
+            ice cream made with <span class="hero__accent">passion</span>
+          </p>
+          <a class="hero__btn--red" href="">Products</a>
+          <a class="hero__btn--white" href="">How it’s made?</a>
         </div>
-        <div class="footer__contacts">
-          <h3 class="visually-hidden">Contacts</h3>
-          <ul class="footer__social footer-social">
-            <li class="footer-social__item">
-              <a
-                class="footer-social__link"
-                href="https://github.com/VladimirFalx/icecream-project"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <svg class="footer-social__icon">
-                  <use href="./images/svg/sprite.svg#icon-github"></use>
-                </svg>
-              </a>
+        <div class="hero__stores store">
+          <ul class="store__list">
+            <li class="store__item">
+              <p class="store__number">16</p>
+              <p class="store__type">cafes</p>
+              <div class="store__circle"></div>
             </li>
-            <li class="footer-social__item">
-              <a
-                class="footer-social__link"
-                href="https://t.me/junior_developer_ua"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <svg class="footer-social__icon">
-                  <use href="./images/svg/sprite.svg#icon-telegram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social__item">
-              <a
-                class="footer-social__link"
-                href="https://www.facebook.com/goITclub"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <svg class="footer-social__icon">
-                  <use href="./images/svg/sprite.svg#icon-facebook"></use>
-                </svg>
-              </a>
+            <li class="store__item">
+              <p class="store__number">23</p>
+              <p class="store__type">food trucks</p>
+              <div class="store__circle"></div>
             </li>
           </ul>
-          <p class="footer__phone">
-            Feel free to contact
-            <a class="footer__tel" href="">+61 (0) 383 766 284</a>
-          </p>
         </div>
-        <div class="copyright footer__copyright">
-          <h3 class="visually-hidden">Copyright</h3>
-          <p class="copyright__text">
-            &copy 2019 - IceCream. All Rights Reserved.
+        <div class="hero__descr">
+          <p class="hero__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et
           </p>
+          <button class="hero__more"></button>
         </div>
+        <div class="circle"></div>
+        <picture class="hero__picture picture__main">
+          <source />
+        </picture>
+        <picture class="hero__picture picture__milk"></picture>
+        <picture class="hero__picture picture__girl"></picture>
       </div>
     </section>
   </body>
